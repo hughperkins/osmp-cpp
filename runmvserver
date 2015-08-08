@@ -1,0 +1,9 @@
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:./linux
+nice linux/metaverseserver --nospawn &
+sleep 1
+nice linux/serverfileagent &
+sleep 1
+nice linux/dbinterface &
+
+
+

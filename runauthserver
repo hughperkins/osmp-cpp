@@ -1,0 +1,6 @@
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:./linux
+nice linux/authserver --nospawn &
+sleep 1
+nice linux/authserverdbinterface &
+
+

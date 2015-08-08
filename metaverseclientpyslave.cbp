@@ -1,0 +1,687 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_project_file>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="1"/>
+	<Project>
+		<Option title="metaverseclientpyslave"/>
+		<Option makefile="Makefile"/>
+		<Option makefile_is_custom="0"/>
+		<Option compiler="0"/>
+		<Build>
+			<Target title="luascriptingengine">
+				<Option output="metaverseclientpyslave.exe"/>
+				<Option working_dir="."/>
+				<Option object_output=".objs"/>
+				<Option deps_output=".deps"/>
+				<Option type="1"/>
+				<Option compiler="0"/>
+				<Option projectResourceIncludeDirsRelation="1"/>
+			</Target>
+			<Target title="metaverseclientpyslave">
+				<Option output="metaverseclientpyslave.exe"/>
+				<Option working_dir="."/>
+				<Option object_output=".objs"/>
+				<Option deps_output=".deps"/>
+				<Option type="1"/>
+				<Option compiler="0"/>
+				<Option projectResourceIncludeDirsRelation="1"/>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-DTIXML_USE_STL"/>
+			<Add directory="..\osmpdevkit-msvc\tinyxml"/>
+			<Add directory="..\osmpdevkit-msvc\logging\include"/>
+			<Add directory="..\osmpdevkit-msvc\ode\include"/>
+			<Add directory="..\osmpdevkit-msvc\laminarchaos\include"/>
+			<Add directory="..\osmpdevkit-msvc\pthreads-win32\include"/>
+		</Compiler>
+		<Unit filename="CRuntimeNameCompat.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="CallbackToPythonClass.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="ClientEditing.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="ClientEditing.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="ClientFileMgmtFunctions.cpp">
+			<Option compilerVar="CPP"/>
+			<Option weight="100"/>
+			<Option target="luascriptingengine"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="ClientFileMgmtFunctions.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="ClientLinking.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="ClientLinking.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="ClientMeshFileMgmt.cpp">
+			<Option compilerVar="CPP"/>
+			<Option weight="100"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="ClientMeshFileMgmt.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="ClientTerrainFunctions.cpp">
+			<Option compilerVar="CPP"/>
+			<Option weight="100"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="DynamicDll.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="Editing3D.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="Editing3D.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="Editing3DPos.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="Editing3DPos.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="Editing3DRot.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="Editing3DRot.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="Editing3DScale.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="Editing3DScale.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="FileTrans.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="MeshInfoCache.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="MeshInfoCache.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="ObjectImportExport.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="ObjectImportExport.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="PlayerMovement.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="PlayerMovement.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="RendererTexturing.cpp">
+			<Option compilerVar="CPP"/>
+			<Option weight="100"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="RendererTexturing.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="SDL_keysym.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="ScriptInfoCache.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="ScriptInfoCache.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="ScriptMgmt.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="ScriptMgmt.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="SetFocusToWindow.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="TextureManager.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="TickCount.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="TickCount.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="XmlHelper.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="animation.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="animation.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="checksum.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="checksum.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="clientterrainfunctions.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="dbabstractionlayer.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="dbabstractionlayerinterface.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="diag.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="diagconsole.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="diagwindows.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="fileinfocache.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="fileinfocache.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="metaverseclient.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="metaverseclientpyslave.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="mvCamera.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvCamera.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvavatar.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvbasictypes.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvbasictypes.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvcollision.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvcone.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvconfig.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvconfig.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvconstants.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvconstants.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvcube.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvcylinder.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvfile.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvfile.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvgraphics.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="mvgraphics.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="mvgraphicsinterface.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="mvmath.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvmath.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvmd2mesh.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvmd2mesh.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvmesh.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvmesh.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvobject.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvobjectgrouping.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvobjectstorage.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvobjectstorage.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvprim.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvselection.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvselection.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvsphere.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvsystem.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvsystem.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvterrain.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvterrain.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvworldstorage.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="mvworldstorage.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="odephysicsengine.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="parse.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="parse.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="port_list.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="port_list.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="rendererglut.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="rendererimpl.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="rendererimplsdl.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+		</Unit>
+		<Unit filename="socketsclass.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="socketsclass.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="socketsconnectionmanager.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="socketsconnectionmanager.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="socketserver.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="spawnwrap.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="spawnwrap.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="terraincache.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="terraincache.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="texturemanager.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="threadwrapper.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="threadwrapper.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+		<Unit filename="xmlhelper.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="metaverseclientpyslave"/>
+			<Option target="luascriptingengine"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,810 @@
+# depslib dependency file v1.0
+1116722596 f:\dev\metaversealpha\clientediting.cpp
+	<string>
+	<sstream>
+	<iostream>
+	"process.h"
+	"time.h"
+	"tinyxml.h"
+	"ClientEditing.h"
+	"mvworldstorage.h"
+	"RendererTexturing.h"
+	"texturemanager.h"
+	"mvconfig.h"
+	"mvfile.h"
+	"mvterrain.h"
+	"ScriptMgmt.h"
+	"metaverseclient.h"
+
+1113564632 f:\dev\osmpdevkit-msvc\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<windows.h>
+	<string>
+	<iostream>
+	"tinystr.h"
+
+1113564632 f:\dev\osmpdevkit-msvc\tinyxml\tinystr.h
+	"tinyxml.h"
+	<assert.h>
+
+1116554516 f:\dev\metaversealpha\clientediting.h
+	<string>
+	<map>
+	"tinyxml.h"
+	"texturemanager.h"
+	"mvworldstorage.h"
+	"mvconfig.h"
+
+1113964592 f:\dev\metaversealpha\texturemanager.h
+	<map>
+	<string>
+	<iostream>
+	"tinyxml.h"
+	"fileinfocache.h"
+
+1113959202 f:\dev\metaversealpha\fileinfocache.h
+	<map>
+	<string>
+	<iostream>
+	"tinyxml.h"
+	"dbabstractionlayerinterface.h"
+
+1113959202 f:\dev\metaversealpha\dbabstractionlayerinterface.h
+
+1132122810 f:\dev\metaversealpha\mvworldstorage.h
+	<windows.h>
+	<cstdlib>
+	<iostream>
+	<string.h>
+	<math.h>
+	<stdio.h>
+	"mvobjectstorage.h"
+
+1117007298 f:\dev\metaversealpha\mvobjectstorage.h
+	<windows.h>
+	<string>
+	"tinyxml.h"
+	"mvbasictypes.h"
+	"mvcollision.h"
+	"mvgraphicsinterface.h"
+	"dbabstractionlayerinterface.h"
+	"diag.h"
+	"mvmath.h"
+	"texturemanager.h"
+	"terraincache.h"
+	"MeshInfoCache.h"
+
+1116799748 f:\dev\metaversealpha\mvbasictypes.h
+	<iostream>
+	"tinyxml.h"
+	"mvmath.h"
+
+1116799748 f:\dev\metaversealpha\mvmath.h
+	<iostream>
+	"tinyxml.h"
+
+1113963274 f:\dev\metaversealpha\mvcollision.h
+
+1113962886 f:\dev\metaversealpha\mvgraphicsinterface.h
+	<string.h>
+	"mvbasictypes.h"
+
+1119786122 f:\dev\metaversealpha\diag.h
+	<iostream>
+	"log/log.hpp"
+
+1036394760 f:\dev\osmpdevkit-msvc\logging\include\log\log.hpp
+	<iosfwd>
+	"log/common.hpp"
+	"log/msgGroup.hpp"
+	"log/streambf.hpp"
+
+1092773340 f:\dev\osmpdevkit-msvc\logging\include\log\common.hpp
+
+1036045440 f:\dev\osmpdevkit-msvc\logging\include\log\msggroup.hpp
+	<iosfwd>
+	<string>
+	"log/common.hpp"
+
+1094111650 f:\dev\osmpdevkit-msvc\logging\include\log\streambf.hpp
+	<streambuf>
+	"log/common.hpp"
+
+1113959204 f:\dev\metaversealpha\terraincache.h
+	<map>
+	<string>
+	<iostream>
+	"tinyxml.h"
+
+1113963264 f:\dev\metaversealpha\meshinfocache.h
+	"fileinfocache.h"
+
+1118610404 f:\dev\metaversealpha\mvconfig.h
+	<string>
+	<map>
+
+1116722596 f:\dev\metaversealpha\renderertexturing.h
+	<string>
+	"tinyxml.h"
+	"texturemanager.h"
+
+1113962486 f:\dev\metaversealpha\mvfile.h
+	<time.h>
+
+1117007298 f:\dev\metaversealpha\mvterrain.h
+	"mvobjectstorage.h"
+
+1116722596 f:\dev\metaversealpha\scriptmgmt.h
+
+1117179168 f:\dev\metaversealpha\metaverseclient.h
+	<string>
+	"tinyxml.h"
+	"CallbackToPythonClass.h"
+	"mvconfig.h"
+	"mvworldstorage.h"
+	"mvselection.h"
+	"animation.h"
+	"ClientEditing.h"
+	"terraincache.h"
+	"MeshInfoCache.h"
+	"RendererTexturing.h"
+	"clientterrainfunctions.h"
+	"ClientMeshFileMgmt.h"
+	"ClientLinking.h"
+	"PlayerMovement.h"
+	"Editing3D.h"
+	"ObjectImportExport.h"
+	"odephysicsengine.h"
+	"mvgraphics.h"
+	"ScriptMgmt.h"
+	"mvCamera.h"
+
+1117165662 f:\dev\metaversealpha\callbacktopythonclass.h
+	<iostream>
+
+1116569522 f:\dev\metaversealpha\mvselection.h
+	<map>
+	<vector>
+
+1116552304 f:\dev\metaversealpha\animation.h
+	<windows.h>
+	<cstdlib>
+	<iostream>
+	<string.h>
+	<math.h>
+	<stdio.h>
+	"mvworldstorage.h"
+	"mvmath.h"
+	"TickCount.h"
+
+1113959204 f:\dev\metaversealpha\tickcount.h
+
+1116552304 f:\dev\metaversealpha\clientterrainfunctions.h
+	<string>
+	"tinyxml.h"
+	"terraincache.h"
+
+1114840666 f:\dev\metaversealpha\clientmeshfilemgmt.h
+	"ClientFileMgmtFunctions.h"
+
+1116552304 f:\dev\metaversealpha\clientfilemgmtfunctions.h
+	<string>
+	"tinyxml.h"
+	"fileinfocache.h"
+
+1116566186 f:\dev\metaversealpha\clientlinking.h
+	<vector>
+
+1117165662 f:\dev\metaversealpha\playermovement.h
+
+1118573888 f:\dev\metaversealpha\editing3d.h
+	"mvmath.h"
+	"mvbasictypes.h"
+	"Editing3DScale.h"
+	"Editing3DPos.h"
+	"Editing3DRot.h"
+
+1117165662 f:\dev\metaversealpha\editing3dscale.h
+	"Editing3D.h"
+	"mvbasictypes.h"
+
+1117165662 f:\dev\metaversealpha\editing3dpos.h
+	"Editing3D.h"
+	"mvbasictypes.h"
+
+1117165662 f:\dev\metaversealpha\editing3drot.h
+	"Editing3D.h"
+	"mvbasictypes.h"
+
+1116569522 f:\dev\metaversealpha\objectimportexport.h
+	<string>
+	"mvobjectstorage.h"
+	"tinyxml.h"
+
+1116719552 f:\dev\metaversealpha\odephysicsengine.h
+	"ode/ode.h"
+	"mvbasictypes.h"
+	"mvobjectstorage.h"
+	"mvworldstorage.h"
+
+1083305700 f:\dev\osmpdevkit-msvc\ode\include\ode\ode.h
+	<ode/config.h>
+	<ode/compatibility.h>
+	<ode/common.h>
+	<ode/contact.h>
+	<ode/error.h>
+	<ode/memory.h>
+	<ode/odemath.h>
+	<ode/matrix.h>
+	<ode/timer.h>
+	<ode/rotation.h>
+	<ode/mass.h>
+	<ode/misc.h>
+	<ode/objects.h>
+	<ode/odecpp.h>
+	<ode/collision_space.h>
+	<ode/collision.h>
+	<ode/odecpp_collision.h>
+	<ode/export-dif.h>
+
+1085808900 f:\dev\osmpdevkit-msvc\ode\include\ode\config.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<stdarg.h>
+	<malloc.h>
+	<float.h>
+
+1082527800 f:\dev\osmpdevkit-msvc\ode\include\ode\compatibility.h
+
+1084853340 f:\dev\osmpdevkit-msvc\ode\include\ode\common.h
+	<ode/config.h>
+	<ode/error.h>
+
+1024998360 f:\dev\osmpdevkit-msvc\ode\include\ode\error.h
+	<ode/config.h>
+
+1024998360 f:\dev\osmpdevkit-msvc\ode\include\ode\contact.h
+	<ode/common.h>
+
+1082517540 f:\dev\osmpdevkit-msvc\ode\include\ode\memory.h
+	"ode/config.h"
+
+1085807820 f:\dev\osmpdevkit-msvc\ode\include\ode\odemath.h
+	<ode/common.h>
+
+1024998360 f:\dev\osmpdevkit-msvc\ode\include\ode\matrix.h
+	<ode/common.h>
+
+1024998360 f:\dev\osmpdevkit-msvc\ode\include\ode\timer.h
+	<ode/config.h>
+
+1082528460 f:\dev\osmpdevkit-msvc\ode\include\ode\rotation.h
+	<ode/common.h>
+	<ode/compatibility.h>
+
+1057156320 f:\dev\osmpdevkit-msvc\ode\include\ode\mass.h
+	<ode/common.h>
+
+1038669000 f:\dev\osmpdevkit-msvc\ode\include\ode\misc.h
+	<ode/common.h>
+
+1084853340 f:\dev\osmpdevkit-msvc\ode\include\ode\objects.h
+	<ode/common.h>
+	<ode/mass.h>
+	<ode/contact.h>
+
+1083305700 f:\dev\osmpdevkit-msvc\ode\include\ode\odecpp.h
+	<ode/error.h>
+
+1062141780 f:\dev\osmpdevkit-msvc\ode\include\ode\collision_space.h
+	<ode/common.h>
+
+1082517540 f:\dev\osmpdevkit-msvc\ode\include\ode\collision.h
+	<ode/common.h>
+	<ode/collision_space.h>
+	<ode/contact.h>
+	"collision_trimesh.h"
+
+1081430340 f:\dev\osmpdevkit-msvc\ode\include\ode\collision_trimesh.h
+
+1082517540 f:\dev\osmpdevkit-msvc\ode\include\ode\odecpp_collision.h
+	<ode/error.h>
+
+1083305460 f:\dev\osmpdevkit-msvc\ode\include\ode\export-dif.h
+	<ode/common.h>
+
+1113959202 f:\dev\metaversealpha\mvgraphics.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<string.h>
+	<math.h>
+	<stdio.h>
+	"mvgraphicsinterface.h"
+	"mvbasictypes.h"
+
+1113963274 f:\dev\metaversealpha\mvcamera.h
+	"mvbasictypes.h"
+
+1113964342 f:\dev\metaversealpha\terraincache.cpp
+	<sstream>
+	<string>
+	"diag.h"
+	"fileinfocache.h"
+	"terraincache.h"
+	"dbabstractionlayerinterface.h"
+
+1116566186 f:\dev\metaversealpha\clientlinking.cpp
+	<string>
+	<iostream>
+	<sstream>
+	<set>
+	<vector>
+	"mvselection.h"
+	"mvworldstorage.h"
+	"metaverseclient.h"
+	"ClientLinking.h"
+
+1114906268 f:\dev\metaversealpha\clientmeshfilemgmt.cpp
+	<string>
+	<iostream>
+	<sstream>
+	"mvworldstorage.h"
+	"mvselection.h"
+	"socketsclass.h"
+	"RendererTexturing.h"
+	"terraincache.h"
+	"checksum.h"
+	"mvfile.h"
+	"metaverseclient.h"
+	"ClientMeshFileMgmt.h"
+
+1132125394 f:\dev\metaversealpha\socketsclass.h
+	<winsock2.h>
+	<string.h>
+	<stdio.h>
+	<vector>
+	<ostream>
+	"diag.h"
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netdb.h>
+
+1113959800 f:\dev\metaversealpha\checksum.h
+	<string>
+
+1116815716 f:\dev\metaversealpha\spawnwrap.cpp
+	<iostream>
+	<stdarg.h>
+	<stdlib.h>
+	"diag.h"
+	<process.h>
+	<sys/types.h>
+	<unistd.h>
+
+1098066550 f:\dev\metaversealpha\socketserver.cpp
+	<stdio.h>
+	"winsock2.h"
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<sys/select.h>
+	<string.h>
+	<sys/types.h>
+	<errno.h>
+	<stdlib.h>
+	<unistd.h>
+	<stdarg.h>
+
+1113962886 f:\dev\metaversealpha\meshinfocache.cpp
+	"diag.h"
+	"MeshInfoCache.h"
+
+1117053556 f:\dev\metaversealpha\socketsconnectionmanager.cpp
+	<iostream>
+	<map>
+	"socketsconnectionmanager.h"
+	"socketsclass.h"
+
+1117053556 f:\dev\metaversealpha\socketsconnectionmanager.h
+	<string>
+	<sstream>
+	<ostream>
+	<map>
+	"socketsclass.h"
+
+1113964034 f:\dev\metaversealpha\scriptinfocache.cpp
+	<sstream>
+	<string>
+	"diag.h"
+	"fileinfocache.h"
+	"ScriptInfoCache.h"
+	"dbabstractionlayerinterface.h"
+
+1113964034 f:\dev\metaversealpha\scriptinfocache.h
+	<map>
+	<string>
+	<iostream>
+	"tinyxml.h"
+
+1117179168 f:\dev\metaversealpha\scriptmgmt.cpp
+	<string>
+	<iostream>
+	<sstream>
+	"tinyxml.h"
+	"ScriptMgmt.h"
+	"mvworldstorage.h"
+	"mvselection.h"
+	"checksum.h"
+	"metaverseclient.h"
+
+1113964592 f:\dev\metaversealpha\texturemanager.cpp
+	<sstream>
+	<string>
+	"diag.h"
+	"fileinfocache.h"
+	"texturemanager.h"
+	"dbabstractionlayerinterface.h"
+
+1113964638 f:\dev\metaversealpha\tickcount.cpp
+	<windows.h>
+	<sys/time.h>
+
+1113964686 f:\dev\metaversealpha\xmlhelper.cpp
+	"xmlhelper.h"
+
+1113964686 f:\dev\metaversealpha\xmlhelper.h
+	<string>
+	"tinyxml.h"
+
+1116719552 f:\dev\metaversealpha\animation.cpp
+	<windows.h>
+	<cstdlib>
+	<iostream>
+	<string.h>
+	<math.h>
+	<stdio.h>
+	"mvworldstorage.h"
+	"mvconstants.h"
+	"animation.h"
+	"TickCount.h"
+
+1113959202 f:\dev\metaversealpha\mvconstants.h
+
+1113960414 f:\dev\metaversealpha\checksum.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<sys/types.h>
+	<stdlib.h>
+	<string.h>
+	"diag.h"
+	"checksum.h"
+	<stdint.h>
+	<endian.h>
+
+1119786122 f:\dev\metaversealpha\diagconsole.cpp
+	<stdio.h>
+	<stdarg.h>
+	<time.h>
+	"TickCount.h"
+	"diag.h"
+
+1113960414 f:\dev\metaversealpha\diagwindows.cpp
+	<windows.h>
+	<stdio.h>
+	<stdarg.h>
+	"tinyxml.h"
+
+1113960824 f:\dev\metaversealpha\fileinfocache.cpp
+	<sstream>
+	<string>
+	"diag.h"
+	"fileinfocache.h"
+	"dbabstractionlayerinterface.h"
+
+1114906270 f:\dev\metaversealpha\mvcamera.cpp
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"mvCamera.h"
+	"mvselection.h"
+	"mvworldstorage.h"
+	"mvmath.h"
+	"mvgraphics.h"
+
+1117007298 f:\dev\metaversealpha\mvavatar.cpp
+	<windows.h>
+	"tinyxml.h"
+	"mvbasictypes.h"
+	"mvgraphicsinterface.h"
+	"dbabstractionlayerinterface.h"
+	"diag.h"
+	"mvobjectstorage.h"
+	"xmlhelper.h"
+
+1116799748 f:\dev\metaversealpha\mvbasictypes.cpp
+	<sstream>
+	"tinyxml.h"
+	"diag.h"
+	"mvbasictypes.h"
+
+1117007298 f:\dev\metaversealpha\mvcone.cpp
+	<windows.h>
+	<iostream>
+	"math.h"
+	"mvmath.h"
+	"tinyxml.h"
+	"mvbasictypes.h"
+	"mvgraphicsinterface.h"
+	"dbabstractionlayerinterface.h"
+	"diag.h"
+	"mvobjectstorage.h"
+	"xmlhelper.h"
+	"texturemanager.h"
+
+1118610404 f:\dev\metaversealpha\mvconfig.cpp
+	<string>
+	<iostream>
+	<fstream>
+	<map>
+	"diag.h"
+	"stdio.h"
+	"tinyxml.h"
+	"mvconfig.h"
+
+1113962418 f:\dev\metaversealpha\mvconstants.cpp
+	"mvconstants.h"
+
+1117007298 f:\dev\metaversealpha\mvcube.cpp
+	<windows.h>
+	<iostream>
+	"math.h"
+	"mvmath.h"
+	"tinyxml.h"
+	"mvbasictypes.h"
+	"mvgraphicsinterface.h"
+	"dbabstractionlayerinterface.h"
+	"diag.h"
+	"mvobjectstorage.h"
+	"xmlhelper.h"
+	"texturemanager.h"
+
+1117007298 f:\dev\metaversealpha\mvcylinder.cpp
+	<windows.h>
+	<iostream>
+	"math.h"
+	"mvmath.h"
+	"tinyxml.h"
+	"mvbasictypes.h"
+	"mvgraphicsinterface.h"
+	"dbabstractionlayerinterface.h"
+	"diag.h"
+	"mvobjectstorage.h"
+	"xmlhelper.h"
+	"texturemanager.h"
+
+1113962486 f:\dev\metaversealpha\mvfile.cpp
+	<windows.h>
+	<fcntl.h>
+	<time.h>
+	<stdio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<io.h>
+	<iostream>
+	"diag.h"
+	"mvfile.h"
+
+1116799748 f:\dev\metaversealpha\mvmath.cpp
+	<math.h>
+	<iostream>
+	"mvmath.h"
+	"diag.h"
+
+1117007298 f:\dev\metaversealpha\mvmd2mesh.cpp
+	<windows.h>
+	<iostream>
+	"math.h"
+	"mvmath.h"
+	"tinyxml.h"
+	"mvbasictypes.h"
+	"mvgraphicsinterface.h"
+	"dbabstractionlayerinterface.h"
+	"diag.h"
+	"xmlhelper.h"
+	"texturemanager.h"
+	"MeshInfoCache.h"
+	"MD2Mesh.h"
+	"mvmd2mesh.h"
+
+1114755758 f:\dev\osmpdevkit-msvc\laminarchaos\include\md2mesh.h
+	"MD2MeshInterface.h"
+
+1114756010 f:\dev\osmpdevkit-msvc\laminarchaos\include\md2meshinterface.h
+
+1117007298 f:\dev\metaversealpha\mvmd2mesh.h
+	"MD2Mesh.h"
+	"mvobjectstorage.h"
+	"mvmesh.h"
+
+1117007298 f:\dev\metaversealpha\mvmesh.h
+	"mvobjectstorage.h"
+
+1117007298 f:\dev\metaversealpha\mvmesh.cpp
+	<windows.h>
+	<iostream>
+	"math.h"
+	"mvmath.h"
+	"tinyxml.h"
+	"mvbasictypes.h"
+	"mvgraphicsinterface.h"
+	"dbabstractionlayerinterface.h"
+	"diag.h"
+	"xmlhelper.h"
+	"mvmesh.h"
+
+1117007298 f:\dev\metaversealpha\mvobject.cpp
+	<windows.h>
+	"tinyxml.h"
+	"mvbasictypes.h"
+	"mvgraphicsinterface.h"
+	"dbabstractionlayerinterface.h"
+	"diag.h"
+	"mvobjectstorage.h"
+	"xmlhelper.h"
+	"mvterrain.h"
+	"mvmd2mesh.h"
+
+1117007298 f:\dev\metaversealpha\mvobjectgrouping.cpp
+	<windows.h>
+	<math.h>
+	<iostream>
+	"tinyxml.h"
+	"mvbasictypes.h"
+	"mvgraphicsinterface.h"
+	"dbabstractionlayerinterface.h"
+	"diag.h"
+	"mvobjectstorage.h"
+	"xmlhelper.h"
+	"mvconstants.h"
+
+1113963274 f:\dev\metaversealpha\mvobjectstorage.cpp
+
+1117007298 f:\dev\metaversealpha\mvprim.cpp
+	<windows.h>
+	"tinyxml.h"
+	"mvbasictypes.h"
+	"mvgraphicsinterface.h"
+	"dbabstractionlayerinterface.h"
+	"diag.h"
+	"mvobjectstorage.h"
+	"xmlhelper.h"
+
+1116569522 f:\dev\metaversealpha\mvselection.cpp
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<cstdlib>
+	<iostream>
+	<string.h>
+	<math.h>
+	<stdio.h>
+	"diag.h"
+	"mvworldstorage.h"
+	"mvselection.h"
+	"rendererimpl.h"
+
+1115082992 f:\dev\metaversealpha\rendererimpl.h
+	"mvobjectstorage.h"
+
+1117007298 f:\dev\metaversealpha\mvsphere.cpp
+	<windows.h>
+	<iostream>
+	"math.h"
+	"mvmath.h"
+	"tinyxml.h"
+	"mvbasictypes.h"
+	"mvgraphicsinterface.h"
+	"dbabstractionlayerinterface.h"
+	"diag.h"
+	"mvobjectstorage.h"
+	"xmlhelper.h"
+	"texturemanager.h"
+
+1113963708 f:\dev\metaversealpha\mvsystem.cpp
+	<unistd.h>
+	<stdlib.h>
+	"mvsystem.h"
+
+1113966876 f:\dev\metaversealpha\mvsystem.h
+
+1117007298 f:\dev\metaversealpha\mvterrain.cpp
+	<windows.h>
+	<iostream>
+	"math.h"
+	"mvmath.h"
+	"tinyxml.h"
+	"mvbasictypes.h"
+	"mvgraphicsinterface.h"
+	"dbabstractionlayerinterface.h"
+	"diag.h"
+	"mvterrain.h"
+	"xmlhelper.h"
+	"texturemanager.h"
+	"terraincache.h"
+
+1132125134 f:\dev\metaversealpha\mvworldstorage.cpp
+	<windows.h>
+	<cstdlib>
+	<sstream>
+	<iostream>
+	<string.h>
+	<math.h>
+	<stdio.h>
+	"mvworldstorage.h"
+	"mvterrain.h"
+	"mvmd2mesh.h"
+	"mvmath.h"
+
+1090541040 f:\dev\metaversealpha\parse.cpp
+	<stdio.h>
+	<string.h>
+
+1116390550 f:\dev\metaversealpha\port_list.cpp
+	"port_list.h"
+
+1116390550 f:\dev\metaversealpha\port_list.h
+
+1117053556 f:\dev\metaversealpha\socketsclass.cpp
+	"winsock2.h"
+	<sys/select.h>
+	<string.h>
+	<sys/types.h>
+	<errno.h>
+	<stdlib.h>
+	<unistd.h>
+	<stdarg.h>
+	<signal.h>
+	<stdio.h>
+	"diag.h"
+	"socketsclass.h"
+	"CRuntimeNameCompat.h"
+
+1113959202 f:\dev\metaversealpha\cruntimenamecompat.h
+
+1113964636 f:\dev\metaversealpha\threadwrapper.cpp
+	<sys/time.h>
+	<time.h>
+	<pthread.h>
+	"threadwrapper.h"
+
+1087811700 f:\dev\osmpdevkit-msvc\pthreads-win32\include\pthread.h
+	<windows.h>
+	"config.h"
+	<windows.h>
+	<time.h>
+	<signal.h>
+	<setjmp.h>
+	<limits.h>
+	"need_errno.h"
+	<errno.h>
+	<sched.h>
+	<sys/types.h>
+
+1087811700 f:\dev\osmpdevkit-msvc\pthreads-win32\include\sched.h
+	"need_errno.h"
+	<errno.h>
+	<sys/types.h>
+	<time.h>
+
+1113964638 f:\dev\metaversealpha\threadwrapper.h
+

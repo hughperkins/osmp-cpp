@@ -1,0 +1,95 @@
+##########################################
+# All platforms
+#
+##########################################
+
+# TODO: uncomment the appropriate line here
+# For Windows, uncomment MSVC=1; for Linux uncomment LINUXALL=1
+# LINUXSERVERONLY=1
+# LINUXALL=1
+# MSVC=1
+
+######################################3
+# Linux
+######################################3
+
+# $(LOCALPREFIX) is where files will be installed to
+# It also is added to the library and include search paths
+LOCALPREFIX = /home/osmpdev/local
+
+# format: -Isomepath -Ianotherpath
+ADDITIONALINCLUDEPATHS = 
+
+# format: -Lsomepath -Lanotherpath
+ADDITIONALLIBPATHS = 
+
+######################################
+# Windows, msvc
+#
+# TODO:
+# - Download these libraries if necessary (most are in osmpdevkit-msvc.zip ), and
+# - Set these paths appropriately for your system
+#
+######################################
+
+## utility paths ##
+
+SWIGPATH=G:\dev\osmpdevkit-msvc\swigwin-1.3.28
+
+## include and library paths ##
+
+# Supplied by Visual C++ Toolkit 2003, or by Visual Studio 2003
+STANDARDLIBRARYINCLUDE=D:\Program Files\Microsoft Visual C++ Toolkit 2003\include
+STANDARDLIBRARYLIB=D:\Program Files\Microsoft Visual C++ Toolkit 2003\lib
+
+# Microsoft Platform SDK http://microsoft.com
+PLATFORMSDKINCLUDE=D:\program files\Microsoft Platform SDK for Windows XP SP2\include
+PLATFORMSDKLIB=D:\program files\Microsoft Platform SDK for Windows XP SP2\lib
+
+# http://python.org
+PYTHONINCLUDE=g:\python24\include
+PYTHONLIB=g:\python24\libs
+
+# http://sf.net/projects/tinyxml ,, or osmpdevkit-msvc
+TINYXMLINCLUDE=G:\dev\osmpdevkit-msvc\tinyxml
+TINYXMLLIB=G:\dev\osmpdevkit-msvc\tinyxml
+
+# in osmpdevkit-msvc
+LOGGINGINCLUDE=G:\dev\osmpdevkit-msvc\logging\include
+LOGGINGLIB=G:\dev\osmpdevkit-msvc\logging\lib
+
+# http://ode.org , or osmpdevkit-msvc
+ODEINCLUDE=G:\dev\osmpdevkit-msvc\ode\include
+ODELIB=G:\dev\osmpdevkit-msvc\ode\lib
+
+# http://myssql.com , or osmpdevkit-msvc
+MYSQLINCLUDE=G:\dev\osmpdevkit-msvc\mysql\include
+MYSQLLIB=G:\dev\osmpdevkit-msvc\mysql\lib\debug
+
+# http://sf.net/projects/laminarchaos , or osmpdevkit-msvc
+LAMINARCHAOSINCLUDE=G:\dev\osmpdevkit-msvc\laminarchaos\include
+LAMINARCHAOSLIB=G:\dev\osmpdevkit-msvc\laminarchaos\lib
+
+# http://lua.org , or osmpdevkit-msvc
+LUAINCLUDE=G:\dev\osmpdevkit-msvc\lua\include
+LUALIB=G:\dev\osmpdevkit-msvc\lua\lib
+
+#  in osmpdevkit-msvc
+GLUTINCLUDE=G:\dev\osmpdevkit-msvc\glut-3.7.6-bin
+GLUTLIB=G:\dev\osmpdevkit-msvc\glut-3.7.6-bin
+
+# in osmpdevkit-msvc
+SDLINCLUDE=G:\dev\osmpdevkit-msvc\sdl\include
+SDLLIB=G:\dev\osmpdevkit-msvc\sdl\lib
+
+# http://sf.net/projects/wxwindows or http://manageddreams.com/files/wxWidgets-2.5.2-binaries.zip
+WXWIDGETSINCLUDE=D:\dev\wxwidgets-2.5.2\include
+WXWIDGETSLIB=D:\dev\wxwidgets-2.5.2\lib\vc_lib
+
+# http://sf.net/projects/tartan , or osmpdevkit-msvc
+TARTANINCLUDE=G:\dev\osmpdevkit-msvc\tartan\include
+TARTANLIB=G:\dev\osmpdevkit-msvc\tartan\lib
+
+# in osmpdevkit-msvc
+PTHREADSINCLUDE=G:\dev\osmpdevkit-msvc\pthreads-win32\include
+PTHREADSLIB=G:\dev\osmpdevkit-msvc\pthreads-win32\lib

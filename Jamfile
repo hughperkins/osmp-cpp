@@ -1,0 +1,76 @@
+C++ = g++ ;
+C++FLAGS = -I/c/dev/osmpdevkit/tinyxml/newversion 
+ -I/c/dev/osmpdevkit/mysql/include 
+ -I/c/dev/osmpdevkit/logging/include 
+ -I/c/dev/osmpdevkit/glut-3.7.6-bin 
+ -I/c/dev/osmpdevkit/sdl/include 
+ -I/c/dev/wxWidgets-2.5.2/include
+ -I/c/dev/CS/include
+ -I/c/dev/osmpdevkit/lua/include
+ -I/c/dev/osmpdevkit/pthreads-win32/include
+ -DTIXML_USE_STL 
+ ;
+CCFLAGS = $(C++FLAGS) ;
+Cc = gcc ;
+
+LINK = g++ ;
+LINKFLAGS = -L/c/dev/osmpdevkit/logging/lib 
+   -L/c/dev/osmpdevkit/tinyxml/newversion 
+   -L/c/dev/osmpdevkit/logging/lib
+   -L/c/dev/osmpdevkit/mysql/lib/opt
+   -L/c/dev/osmpdevkit/glut-3.7.6-bin 
+   -L/c/dev/osmpdevkit/sdl/libmw
+   -L/c/dev/osmpdevkit/lua/lib
+   -L/c/dev/osmpdevkit/pthreads-win32/lib
+   -L/c/dev/wxWidgets-2.5.2/lib
+   ;
+LINKLIBS = -lliblog -lws2_32 -lxmlmingw -lmysqlmingw -lglut32 -lopengl32 -lglu32 --lwx_mswd_core-2.5 -lwx_based-2.5 -lwxtiffd -lwxjpegd -lwxpngd -lwxzlibd -lwxregexd -lwxexpatd -llogging -lluamw -llualibmw -lpthreadVC -lrpcrt4 -loleaut32 -lole32 -luuid -lwinspool -lwinmm -lshell32 -lcomctl32 -lcomdlg32 -lctl3d32 -ladvapi32 -lwsock32 -lgdi32 -lSDL ;
+
+MVOBJECTFILES = mvobject.cpp mvprim.cpp mvavatar.cpp mvterrain.cpp mvcube.cpp mvsphere.cpp mvcylinder.cpp mvcone.cpp
+ mvbasictypes.cpp mvobjectgrouping.cpp mvmesh.cpp mvmd2mesh.cpp ;
+EDITING3DFILES = Editing3DPos.cpp Editing3DRot.cpp Editing3DScale.cpp ThreeDeeEditing.cpp ;
+FILEINFOCACHEFILES = ScriptInfoCache.cpp fileinfocache.cpp TextureManager.cpp MeshInfoCache.cpp terraincache.cpp ;
+
+Main authserver : authserver.cpp socketsclass.cpp mvconfig.cpp diagconsole.cpp socketsconnectionmanager.cpp ;
+
+Main authserverdbinterface : authserverdbinterface.cpp dbabstractionlayer.cpp socketsclass.cpp mvconfig.cpp diagconsole.cpp ;
+
+Main metaverseclient : metaverseclient.cpp socketsclass.cpp mvconfig.cpp diagconsole.cpp clientlogin.cpp ;
+
+Main dbinterface : dbinterface.cpp dbabstractionlayer.cpp diagconsole.cpp XmlHelper.cpp TextureManager.cpp
+ fileinfocache.cpp socketsclass.cpp ScriptInfoCache.cpp parse.cpp mvconfig.cpp terraincache.cpp MeshInfoCache.cpp
+  mvmath.cpp $(MVOBJECTFILES) ;
+  
+Main metaverseserver : metaverseserver.cpp $(MVOBJECTFILES) $(FILEINFOCACHEFILES) diagconsole.cpp
+ mvworldstorage.cpp mvmath.cpp XmlHelper.cpp socketsclass.cpp socketsconnectionmanager.cpp TickCount.cpp mvconfig.cpp 
+ animation.cpp DynamicDll.cpp CollisionAndPhysicsDllLoader.cpp ;
+
+Main scriptingengineprot2 : scriptingengineprot2.cpp $(MVOBJECTFILES) diagconsole.cpp XmlHelper.cpp TextureManager.cpp 
+ fileinfocache.cpp socketsclass.cpp ScriptInfoCache.cpp parse.cpp mvconfig.cpp terraincache.cpp MeshInfoCache.cpp mvmath.cpp 
+ mvworldstorage.cpp TickCount.cpp ;
+
+C++FLAGS on scriptingengineprotlua = $(C++FLAGS) ;
+Main scriptingengineprotlua : scriptingengineprotlua2.cpp $(MVOBJECTFILES) mvworldstorage.cpp diagconsole.cpp XmlHelper.cpp
+ TextureManager.cpp fileinfocache.cpp socketsclass.cpp ScriptInfoCache.cpp parse.cpp mvconfig.cpp terraincache.cpp 
+ MeshInfoCache.cpp mvmath.cpp TickCount.cpp LuaDBAccess.cpp LuamvMath.cpp LUAScriptingAPI.cpp 
+ LuaScriptingAPIGetObjectPropertiesStandard.cpp LuaScriptingAPIGod.cpp LuaScriptingAPIHelper.cpp LuaScriptingPhysics.cpp 
+ LuaScriptingStandardRPC.cpp LuaScriptingAPITimerProperties.cpp LuaScriptingAPISetObjectPropertiesStandard.cpp 
+ animation.cpp ;
+
+Main renderermain : renderermain.cpp $(MVOBJECTFILES) rendererimplsdl.cpp keyandmousesdl.cpp mvgraphics.cpp diagconsole.cpp
+ XmlHelper.cpp socketsclass.cpp parse.cpp mvconfig.cpp 
+ $(FILEINFOCACHEFILES) mvmath.cpp mvworldstorage.cpp TickCount.cpp animation.cpp mvselection.cpp 
+ $(EDITING3DFILES) mvCamera.cpp PlayerMovement.cpp mvconstants.cpp ScriptMgmt.cpp ClientFileMgmtFunctions.cpp 
+ checksum.cpp ClientEditing.cpp ClientLinking.cpp mvfile.cpp ObjectImportExport.cpp ClientTerrainFunctions.cpp 
+ md2.cpp ClientMeshFileMgmt.cpp mesh.cpp material.cpp RendererTexturing.cpp TGALoader.cpp pcxloader.cpp 
+ ModelFactory.cpp model.cpp modelframe.cpp CollisionAndPhysicsDllLoader.cpp DynamicDll.cpp 
+ SDL_win32_main.c
+ ;
+
+Main clientfileagent : clientfileagent.cpp diagconsole.cpp FileTrans.cpp socketsclass.cpp mvfile.cpp ;
+Main serverfileagent : serverfileagent.cpp diagconsole.cpp socketsclass.cpp checksum.cpp ;
+
+Main test : test.cpp ;
+
+
+

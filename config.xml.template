@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <editors description="user configurable paths to script and texture editors">
+    <texteditor description="path to text editor, eg notepad.exe" path="notepad.exe"/>
+    <scripteditor description="path to script editor, eg notepad.exe" path="notepad.exe"/>
+    <_scripteditor description="path to script editor, eg notepad.exe" path="c:\program files\scite\scite.exe"/>
+    <textureeditor description="full path to texture editor, eg Photoshop.exe" path="gimp"/>
+  </editors>
+  
+  <directories>
+    <temp path="c:\temp"/>
+    <cache path="f:\dev\metaversealpha"/>
+  </directories>
+  
+  <help description="protected configuration, don't change">
+    <f1helpfile path="http://manageddreams.com/osmpwiki/index.php?title=User_Instructions"/>
+  </help>
+  
+  <keymappings description="keyboard mappings">
+    <keyreference>
+You can select a key value from any of the following values:
+Available keys are:
+a-z, 1-9, f1, f9,
+uparrow, leftarrow, rightarrow, downarrow,
+spacebar, shift, alt, ctrl, delete, enter
+    </keyreference>
+    <key command="mouselook" keycode="ctrl"/>
+    <key command="moveleft" keycode="a"/>
+    <key command="moveleft" keycode="leftarrow"/>
+    <key command="moveright" keycode="d"/>
+    <key command="moveright" keycode="rightarrow"/>
+    <key command="moveforwards" keycode="w"/>
+    <key command="moveforwards" keycode="uparrow"/>
+    <key command="movebackwards" keycode="s"/>
+    <key command="movebackwards" keycode="downarrow"/>
+    <key command="moveup" keycode="r"/>
+    <key command="movedown" keycode="c"/>
+    <key command="fly" keycode="F"/>
+    <key command="jump" keycode="spacebar"/>
+    <key command="cameramode" keycode="alt"/>
+    <key command="cameraorbit" keycode="ctrl"/>
+    <key command="camerapan" keycode="shift"/>
+    <key command="editmode" keycode="z"/>
+    <key command="editrotation" keycode="v"/>
+    <key command="editscale" keycode="x"/>
+    <key command="editalternativeaxes" keycode="c"/>
+    <key command="selectobject" keycode="shift"/>
+    <key command="selectindividual" keycode="ctrl"/>
+    <key command="delete" keycode="delete"/>
+    <key command="help" keycode="f1"/>
+    <key command="toggleviewpoint" keycode="f9"/>
+    <key command="activatechat" keycode="enter"/>
+  </keymappings>
+  
+  <system description="engineer use only">
+    <debuglevel description="sets debug state 0 is off 3 is on" value="0"/>
+  </system>
+  
+  <clientconfig>
+  <!-- <clientWindow width="800" height="600"/> -->
+  </clientconfig>
+  
+  <simconfig name="OurSimName">
+    <authservers>
+      <authserver password="blah" serverip="127.0.0.1" serverport="25100"/>
+    </authservers>
+    <database host="localhost" name="metaversedb" password="asdf" user="root"/>
+  </simconfig>
+  
+  <authserver>
+    <database host="localhost" name="authdb" password="asdf" user="root"/>
+  </authserver>
+  
+</config>
