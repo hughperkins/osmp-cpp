@@ -71,7 +71,7 @@ using namespace std;
 //! the client
 //!
 //! authserver contains a main, so it runs from the commandline
-//! See documentation at http://manageddreams.com/osmpwiki for more details on usage
+//! See documentation at http://hughperkins.com/osmpwiki for more details on usage
 
 char ReadBuffer[4098];     //!< Used for socket reads
 char SendBuffer[BUFSIZE + 1];     //!< Used for socket writes

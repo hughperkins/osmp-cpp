@@ -26,7 +26,7 @@
 //! The AuthServer database contains information on user and sim accounts
 //!
 //! AuthServerDBInterface contains a main, and runs as a standalone component
-//! See the documentation at http://manageddreams.com/osmpwiki for usage instructions
+//! See the documentation at http://hughperkins.com/osmpwiki for usage instructions
 
 #ifndef TIXML_USE_STL
 #define TIXML_USE_STL

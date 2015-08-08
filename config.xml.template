@@ -13,7 +13,7 @@
   </directories>
   
   <help description="protected configuration, don't change">
-    <f1helpfile path="http://manageddreams.com/osmpwiki/index.php?title=User_Instructions"/>
+    <f1helpfile path="http://hughperkins.com/osmpwiki/index.php?title=User_Instructions"/>
   </help>
   
   <keymappings description="keyboard mappings">

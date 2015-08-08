@@ -82,7 +82,7 @@ GLUTLIB=G:\dev\osmpdevkit-msvc\glut-3.7.6-bin
 SDLINCLUDE=G:\dev\osmpdevkit-msvc\sdl\include
 SDLLIB=G:\dev\osmpdevkit-msvc\sdl\lib
 
-# http://sf.net/projects/wxwindows or http://manageddreams.com/files/wxWidgets-2.5.2-binaries.zip
+# http://sf.net/projects/wxwindows or http://hughperkins.com/files/wxWidgets-2.5.2-binaries.zip
 WXWIDGETSINCLUDE=D:\dev\wxwidgets-2.5.2\include
 WXWIDGETSLIB=D:\dev\wxwidgets-2.5.2\lib\vc_lib
 

@@ -130,7 +130,7 @@ Section "OSMP" osmp
   CreateShortCut "$SMPROGRAMS\OpenSource Metaverse Project\MetaverseClient (needs server first).lnk" "$INSTDIR\Metaverse\startclient.bat" "" "$INSTDIR\Metaverse\osmpico32.ico" 0
   ;CreateShortCut "$SMPROGRAMS\OpenSource Metaverse Project\Scripting Engine Demo (start server and client first).lnk" "$INSTDIR\Metaverse\msvc\scriptingenginecppexample.exe" "" "$INSTDIR\Metaverse\osmpico32.ico" 0
   CreateShortCut "$SMPROGRAMS\OpenSource Metaverse Project\Open local inventory.lnk" "$DOCUMENTs\osmp inventory"
-  CreateShortCut "$SMPROGRAMS\OpenSource Metaverse Project\User instructions.lnk" "http://manageddreams.com/osmpwiki/index.php?title=User_Instructions"
+  CreateShortCut "$SMPROGRAMS\OpenSource Metaverse Project\User instructions.lnk" "http://hughperkins.com/osmpwiki/index.php?title=User_Instructions"
   CreateShortCut "$SMPROGRAMS\OpenSource Metaverse Project\Open config.xml file.lnk" "notepad" "$INSTDIR\Metaverse\config.xml"
   CreateShortCut "$SMPROGRAMS\OpenSource Metaverse Project\Uninstall.lnk" "$INSTDIR\uninstall.exe"
 

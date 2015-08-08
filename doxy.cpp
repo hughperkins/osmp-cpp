@@ -5,7 +5,7 @@
  * This documentation set describes the sourcecode of that project
  *
  * You can get more information - and architecture - in the wiki at
- * http://manageddreams.com/osmpwiki
+ * http://hughperkins.com/osmpwiki
  *
  /
 
